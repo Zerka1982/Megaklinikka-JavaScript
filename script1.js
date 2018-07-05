@@ -1,3 +1,4 @@
+// Function printFrame
 function printFrame(arr) {
     function fill (str, length, char) {
       return (str.length < length) ? fill(str + char, length, char) : str;
